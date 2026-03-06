@@ -1,16 +1,16 @@
-## Hi there 👋
+# Joao Fonseca — Data Engineer (EU-Remote B2B/Contract)
 
-<!--
-**jcsf2020/jcsf2020** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Stack:** Python · SQL · dbt · Snowflake · PostgreSQL · Docker · GitHub Actions  
+**Focus:** layered ELT (raw -> staging -> marts), dimensional modelling (Kimball/SCD2), CI-enforced data quality gates
 
-Here are some ideas to get you started:
+## Evidence Pack (public)
+- Evidence Pack: https://drive.google.com/file/d/1K5GeDJY_C2pJfIj_h3FBenkm6IuUB-Qv/view
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Flagship projects
+- dbt + Snowflake Analytics Platform: https://github.com/jcsf2020/de-snowflake-dbt-platform
+- PHC Analytics Platform (Python/PostgreSQL): https://github.com/jcsf2020/phc-analytics-portfolio
+
+## Links
+- Portfolio: https://joao-fonseca-portfolio.vercel.app/
+- LinkedIn: https://www.linkedin.com/in/joao-fonseca-data-engineer/
+- GitHub: https://github.com/jcsf2020
