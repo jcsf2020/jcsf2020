@@ -1,96 +1,69 @@
-# João Fonseca — Data Engineer (Pipelines, Lakehouse, Analytics Engineering)
+# João Fonseca — Data Engineer | Platform Engineering
 
-I build production-grade data pipelines focused on ingestion, reliability, and analytics.
+I build reliable, testable and evidence-backed data platforms across Azure Databricks, dbt/Snowflake and GCP.
+
+Professional Data Engineering positioning starts in **2023**. I work **B2B through Famous Satellite** and do not backdate Data Engineering tenure to the company founding date.
 
 ## Core Stack
 
-Python · SQL · Azure (ADF, ADLS, Databricks) · AWS (S3, Athena) · Airflow · dbt · Snowflake · PostgreSQL · Docker · GitHub Actions
+Python · SQL · PySpark · Azure Databricks · ADLS Gen2 · Azure Data Factory · Delta Lake · Unity Catalog · dbt · Snowflake · GCP · BigQuery · Cloud SQL · Terraform · Docker · GitHub Actions
 
-## Focus Areas
+## Current Proof Assets
 
-- Data ingestion (APIs → cloud data lake)
-- Layered architectures (raw → staging → core → marts)
-- Dimensional modeling (Kimball, SCD2)
-- Data quality & validation (tests, CI pipelines)
-- Orchestration & monitoring (Airflow, run logging)
+### 1. Real-Time Data Platform — GCP
 
----
+Evidence-first event-driven platform using Pub/Sub, Cloud Run, Cloud SQL, BigQuery, dbt, Terraform and Python.
 
-## Flagship Project
+- 384 pytest tests
+- 50,000-event bounded cloud run
+- 0 worker errors
+- 0 duplicate `event_id` rows
+- IaC, quality, monitoring and incident evidence
 
-### 1. Azure Lakehouse ETL Platform (Azure · Databricks · Delta Lake)
+→ https://github.com/jcsf2020/real-time-data-platform
 
-End-to-end lakehouse architecture built with:
+### 2. Azure Lakehouse ETL Platform
 
-- Azure Data Factory orchestration
-- ADLS Gen2 storage layer
-- Databricks (PySpark) transformations
-- Medallion architecture (Bronze → Silver → Gold)
-- Data quality checks and validation layer
-- Execution logging and reproducibility
+Validated Azure/Databricks lakehouse reference platform with:
+
+- Bronze → Silver → Gold medallion architecture
+- ADLS Gen2 + Azure Data Factory
+- Delta Lake + Unity Catalog
+- SQL-driven Gold serving layer
+- explicit data-quality layer and model contracts
+- committed execution artifacts
 
 → https://github.com/jcsf2020/azure-lakehouse-etl-platform
 
----
-
-## Other Projects
-
-### 2. GitHub Events Data Pipeline (AWS · Airflow · Python)
-
-Production-style ingestion pipeline with:
-
-- API ingestion with retries and error handling
-- S3 partitioned data lake (year/month/day)
-- Run metadata logging and validation
-- Airflow orchestration (TaskFlow API)
-- Athena analytical layers (staging → core → mart)
-
-→ https://github.com/jcsf2020/github-events-data-pipeline
-
----
-
 ### 3. dbt + Snowflake Analytics Platform
 
-End-to-end analytics engineering project:
-
-- dbt models, tests and documentation
-- Dimensional model with date spine
-- CI-driven data quality
+- layered staging → intermediate → marts modelling
+- dimensional modelling and date spine
+- SCD Type 2 snapshots
+- automated tests and dbt Docs lineage
 
 → https://github.com/jcsf2020/de-snowflake-dbt-platform
 
----
+### 4. PHC Analytics Platform
 
-### 4. PHC Analytics Platform (Python · PostgreSQL)
-
-Business-oriented data platform:
-
-- ERP-style dataset simulation
-- KPI layer and dimensional modeling
-- Python ingestion + transformation pipeline
+Python/PostgreSQL modular ETL and dimensional analytics over ERP-style data.
 
 → https://github.com/jcsf2020/phc-analytics-portfolio
 
----
+## Public Links
 
-## Portfolio & Links
-
-Portfolio: https://joao-fonseca-portfolio.vercel.app/  
-LinkedIn: https://www.linkedin.com/in/joao-fonseca-data-engineer/
-
----
+- Portfolio: https://joao-fonseca-portfolio.vercel.app/
+- LinkedIn: https://www.linkedin.com/in/joao-fonseca-data-engineer/
+- Career Evidence: https://drive.google.com/drive/folders/1VaMTQ6gf-d_Zf_t8Oi_dhClvbCWBT1HE
+- Famous Satellite: https://famoussatellite.com
 
 ## Positioning
 
-I focus on building reliable, testable and production-oriented data systems, not just data transformations.
+My work is presented with explicit evidence boundaries. Portfolio/reference systems are described as such; I do not claim live client production deployment unless independently evidenced.
 
-This portfolio demonstrates real-world patterns including ingestion reliability, data contracts, partitioned data lakes, and orchestration with Airflow.
-
----
+For recruiter-led Data Engineering opportunities, I engage João-first. For B2B/end-client work, the commercial and contractual context is Famous Satellite.
 
 ## Contact
 
-If you're building data platforms or hiring for data engineering roles:
-
-- Reach out via LinkedIn: https://www.linkedin.com/in/joao-fonseca-data-engineer/
-- Or explore my work in the repositories above
+- joao.fonseca@famoussatellite.com
+- LinkedIn: https://www.linkedin.com/in/joao-fonseca-data-engineer/
